@@ -12,7 +12,7 @@ describe('AsteroidApi', function() {
   })
 
   it('should get back something from the api request', function(done) {
-    expect("21277 (1996 TO5)").toEqual(testData.potHaz);
+    expect(1).toEqual(testData.potHaz.length);
     done();
   });
 
