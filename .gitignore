@@ -6,6 +6,7 @@ tmp/
 
 ## Files ##
 tailwind.js
+.env
 
 ## System Files ##
 .DS_Store
