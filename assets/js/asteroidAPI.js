@@ -9,7 +9,7 @@ export class AsteroidApi {
   getPotHaz() {
     let that = this;
     let currentPage = 0;
-    const totalPages = 20;
+    const totalPages = 200;
     while (currentPage < totalPages) {
       let apiCall = new Promise(function(resolve, reject) {
         console.log("apicall started");
