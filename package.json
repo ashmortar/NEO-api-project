@@ -17,6 +17,7 @@
     "bower-files": "^4.0.0",
     "browser-sync": "^2.23.6",
     "browserify": "^16.1.0",
+    "chart.js": "^2.7.1",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.9.2",
@@ -38,5 +39,6 @@
     "moment": "^2.20.1",
     "vinyl-source-stream": "^2.0.0",
     "watchify": "^3.10.0"
-  }
+  },
+  "dependencies": {}
 }

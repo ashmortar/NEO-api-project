@@ -9,10 +9,8 @@ export class AsteroidApi {
   getPotHaz() {
     let that = this;
     let currentPage = 0;
-    const totalPages = 5;
+    const totalPages = 20;
     while (currentPage < totalPages) {
-
-
       let apiCall = new Promise(function(resolve, reject) {
         console.log("apicall started");
         let request = new XMLHttpRequest();
@@ -45,3 +43,6 @@ export class AsteroidApi {
   }
 
 }
+//second key
+//eNXCT20gHf4OAbNMJlPXJBvxWiBgR0r9DSyoVSH0
+//ZIAijyAlc1SygwqRYgsFMiz0Ej9y4O4Z2QHCYXT6
